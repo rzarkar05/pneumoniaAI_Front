@@ -53,65 +53,6 @@ const Contact = props => {
 
   return (
     <div className={className} {...rest}>
-      <Grid container spacing={isMd ? 4 : 2}>
-        <Grid item xs={12}>
-          <SectionHeader
-            label=""
-            title={
-              <>
-                <span>
-                  Our support team
-                  <Typography color="secondary" variant="inherit" component="span">
-                    {' '}
-                    is there to assist you 24/7
-                  </Typography>
-                </span>
-              </>
-            }
-            subtitle="We aim to take care of you. Need help with installation, find a bug, or just need a clarifiction about our documentation? We'll be there to lend a helping hand."
-            align="center"
-            disableGutter
-          />
-        </Grid>
-        <Grid item xs={12}>
-          <Grid container spacing={0}>
-            {items.map((item, index) => (
-              <Grid item container xs={6} sm={3} key={index} data-aos="fade-up">
-                <ListItem disableGutters className={classes.listItem}>
-                  <ListItemAvatar className={classes.listItemAvatar}>
-                    <IconAlternate
-                      size="extraSmall"
-                      shape="circle"
-                      fontIconClass="fas fa-check"
-                      color={colors.deepOrange}
-                    />
-                  </ListItemAvatar>
-                  <Typography variant="subtitle1" color="secondary" noWrap>
-                    {item}
-                  </Typography>
-                </ListItem>
-              </Grid>
-            ))}
-          </Grid>
-        </Grid>
-        <Grid
-          item
-          container
-          alignItems="center"
-          justify="center"
-          xs={12}
-          data-aos="fade-up"
-        >
-          {team.map((item, index) => (
-            <Avatar
-              key={index}
-              className={classes.galleryMedia}
-              alt={item.authorName}
-              {...item.authorPhoto}
-            />
-          ))}
-        </Grid>
-      </Grid>
     </div>
   );
 };

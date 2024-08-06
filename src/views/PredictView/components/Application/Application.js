@@ -186,7 +186,7 @@ const Application = props => {
     <div className={className} {...rest}>
       <SectionHeader
         title="Pneummonia Detector"
-        subtitle="Upload your image and we will classify it for you"
+        subtitle="Upload your image and the model inference will classify it for you"
         subtitleProps={{
           variant: 'body1',
           color: 'textPrimary',

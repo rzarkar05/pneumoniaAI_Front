@@ -32,32 +32,7 @@ const Reviews = props => {
 
   return (
     <div className={className} {...rest}>
-      <Grid container spacing={isMd ? 4 : 2}>
-        {data.map((item, index) => (
-          <Grid item xs={12} sm={6} key={index} data-aos="fade-up">
-            <Grid container spacing={1}>
-              <Grid item xs={12}>
-                <ListItem disableGutters>
-                  <ListItemAvatar className={classes.listItemAvatar}>
-                    <Avatar src={item.logo} className={classes.avatar} />
-                  </ListItemAvatar>
-                  <ListItemText
-                    primary={item.title}
-                    primaryTypographyProps={{
-                      variant: 'h5',
-                    }}
-                  />
-                </ListItem>
-              </Grid>
-              <Grid item xs={12}>
-                <Typography variant="h6" component="p" color="textSecondary">
-                  "{item.feedback}"
-                </Typography>
-              </Grid>
-            </Grid>
-          </Grid>
-        ))}
-      </Grid>
+      
     </div>
   );
 };

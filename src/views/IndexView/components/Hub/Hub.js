@@ -65,14 +65,14 @@ const Features = props => {
               <SectionHeader
                 title={
                   <span>
-                    Transforming modern
+                    Transforming healthcare with
                     <br />
                     <Typography component="span" variant="inherit" color="primary">
-                      healthcare
+                      Artificial Intelligence
                     </Typography>
                   </span>
                 }
-                subtitle="Why us?"
+                subtitle=""
                 align="left"
                 fadeUp
                 disableGutter
@@ -91,17 +91,10 @@ const Features = props => {
                 </div>
                 <div className={classes.placementGridItemMiddle}>
                   <CountUpNumber
-                    end={'98'}
+                    end={'84'}
                     label="Accuracy"
                     textColor="primary"
                     suffix="%"
-                  />
-                </div>
-                <div>
-                  <CountUpNumber
-                    end={5.0}
-                    label="Review Score"
-                    textColor="primary"
                   />
                 </div>
               </div>

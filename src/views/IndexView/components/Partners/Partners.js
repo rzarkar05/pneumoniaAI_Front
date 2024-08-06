@@ -23,33 +23,7 @@ const Partners = props => {
 
   return (
     <div className={className} {...rest}>
-      <Grid container spacing={isMd ? 4 : 2}>
-        <Grid item xs={12} md={6} data-aos="fade-up">
-          <SectionHeader
-            title="We love to explore new ways to engage with brands and reach"
-            subtitle="Our mission is to revolutionize healthcare with the help of machine learning"
-            align="left"
-            label="100+ Integrations"
-            disableGutter
-          />
-        </Grid>
-        <Grid item xs={12} md={6} data-aos="fade-up">
-          <Grid container spacing={2}>
-            {data.map((item, index) => (
-              <Grid item xs={4} key={index}>
-                <CardBase withShadow liftUp>
-                  <Image
-                    src={item.logo}
-                    alt={item.name}
-                    className={classes.logo}
-                    lazy={false}
-                  />
-                </CardBase>
-              </Grid>
-            ))}
-          </Grid>
-        </Grid>
-      </Grid>
+
     </div>
   );
 };

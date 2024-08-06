@@ -45,20 +45,17 @@ const Hero = props => {
           <SectionHeader
             title={
               <span>
-                Use cutting edge Machine Learning
+                Use deep learning models
                 <br />
                 <Typography component="span" variant="inherit" color="primary">
                   for Pneumonia Detection
                 </Typography>
               </span>
             }
-            subtitle="Use our world class models to speed up your classification work"
+            subtitle="Developed by Rishi Zarkar"
             ctaGroup={[
               <Button variant="contained" color="primary" size="large">
                 Start now
-              </Button>,
-              <Button variant="outlined" color="primary" size="large">
-                Learn more
               </Button>,
             ]}
             align="left"

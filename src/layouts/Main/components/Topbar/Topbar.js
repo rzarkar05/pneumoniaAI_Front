@@ -233,7 +233,7 @@ if (!user ) {
           variant="body2"
           color="primary"
           size="large">
-          <h1>MedicAI</h1>
+          <h1>PneummoniaAI</h1>
         </Typography>
         </a>
       </div>

@@ -46,15 +46,7 @@ const IndexView = () => {
           <Hub />
         </Section>
       </div>
-      <Section narrow>
-        <Support data={support} />
-      </Section>
-      <Section>
-        <Partners data={integrations} />
-      </Section>
-      <SectionAlternate innerNarrowed>
-        <Pricings />
-      </SectionAlternate>
+
       <Divider />
     </div>
   );
